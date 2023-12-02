@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Food</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <nav class="navbar">
+        <div class="logo"><img src="./assets/Food-logo.png" alt="brand-logo" height="50px"></div>
+         <a href="#" class="toggle">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+         </a>
+        <div class="links">
+            <ul>
+                <li> <a href="https://about.google/intl/ALL_in/products/">Services</a></li>
+                <li><a href="https://about.google/intl/ALL_in/">About</a></li>
+                <li><a href="https://contacts.google.com/">Contact</a></li>
+                <li><a href="https://support.google.com/">Help</a></li>
+        
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="gg"><img src="./assets/GG.png" alt=""></div>
+        <div class="quotes">
+            <h1>"The belly rules the mind"</h1>
+          </div>
+          <div class = "search">
+            <input type = "text" class = "placeholder" placeholder="Enter ingredient...😋" id = "input">
+            <button type = "Enter" class = "enter-button" id = "enter-btn">
+               Search
+            </button>
+        </div>
+    </header>
+    <hr>
+    <div id="division_for_meal">    
+        <h2 id="heading">Random Meal only for you</h2>
+        
+        <div id="background">
+            <div id="random-meal"></div>
+            <p id="name"></p>
+            <div id="food-container"></div>
+        </div>
+    </div>
+    <div id="reflect"> </div>
+    <hr>
+
+   
+    <div class="container">
+
+            <div class="results">
+                <div class="Yoursearch">Enjoy your meal with us...❤️</div>
+                <div id="FOOD"></div>
+                 <div class = "information">
+                <button type="button" class="closebutton">
+                <i class = "fas fa-times"></i>
+                </button>
+                <div class = "food-recipe">
+                </div>
+            </div>
+            </div>
+
+          
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
