@@ -149,7 +149,7 @@ body{
   
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 10000px) {
     .search {
         display: flex;
         flex-direction: row;
