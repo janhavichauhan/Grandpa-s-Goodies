@@ -65,7 +65,7 @@ body{
     border-radius: 10px;
 }
 
-#FOOD{
+.item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
